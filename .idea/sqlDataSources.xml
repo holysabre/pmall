@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="64296bf4-5e02-43cb-b8c0-dd9f925ec854" name="pmall@localhost Mapping">
+      <data-sources db="bc569dbb-db4a-4015-b063-47596261c10b" ddl="074a3d68-a136-4104-95b1-58c0b3ec0f69" />
+      <scope>
+        <node kind="schema" qname="pmall" />
+      </scope>
+    </mapping>
+  </component>
+</project>
