@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.service;
+package com.pange.pmall.service;
 
 import com.pange.pmall.model.UmsAdmin;
 import com.pange.pmall.model.UmsResource;

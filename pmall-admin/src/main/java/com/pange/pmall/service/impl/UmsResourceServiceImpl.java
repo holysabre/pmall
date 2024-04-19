@@ -1,6 +1,6 @@
-package com.pange.pmall.admin.service.impl;
+package com.pange.pmall.service.impl;
 
-import com.pange.pmall.admin.service.UmsResourceService;
+import com.pange.pmall.service.UmsResourceService;
 import com.pange.pmall.mapper.UmsResourceMapper;
 import com.pange.pmall.model.UmsResource;
 import com.pange.pmall.model.UmsResourceExample;

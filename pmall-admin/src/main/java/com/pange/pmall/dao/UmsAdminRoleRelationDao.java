@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.dao;
+package com.pange.pmall.dao;
 
 import com.pange.pmall.model.UmsResource;
 import org.apache.ibatis.annotations.Param;

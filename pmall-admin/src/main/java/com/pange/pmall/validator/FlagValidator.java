@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.validator;
+package com.pange.pmall.validator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

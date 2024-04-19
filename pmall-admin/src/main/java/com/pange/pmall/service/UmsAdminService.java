@@ -1,7 +1,7 @@
-package com.pange.pmall.admin.service;
+package com.pange.pmall.service;
 
-import com.pange.pmall.admin.dto.UmsAdminLoginParam;
-import com.pange.pmall.admin.dto.UmsAdminParam;
+import com.pange.pmall.dto.UmsAdminLoginParam;
+import com.pange.pmall.dto.UmsAdminParam;
 import com.pange.pmall.model.UmsAdmin;
 import com.pange.pmall.model.UmsResource;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.config;
+package com.pange.pmall.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

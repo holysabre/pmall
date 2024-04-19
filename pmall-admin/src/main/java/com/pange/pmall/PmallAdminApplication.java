@@ -1,4 +1,4 @@
-package com.pange.pmall.admin;
+package com.pange.pmall;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

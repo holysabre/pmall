@@ -1,11 +1,11 @@
-package com.pange.pmall.admin.service.impl;
+package com.pange.pmall.service.impl;
 
-import com.pange.pmall.admin.bo.AdminUserDetails;
-import com.pange.pmall.admin.dao.UmsAdminRoleRelationDao;
-import com.pange.pmall.admin.dto.UmsAdminLoginParam;
-import com.pange.pmall.admin.dto.UmsAdminParam;
-import com.pange.pmall.admin.service.UmsAdminCacheService;
-import com.pange.pmall.admin.service.UmsAdminService;
+import com.pange.pmall.bo.AdminUserDetails;
+import com.pange.pmall.dao.UmsAdminRoleRelationDao;
+import com.pange.pmall.dto.UmsAdminLoginParam;
+import com.pange.pmall.dto.UmsAdminParam;
+import com.pange.pmall.service.UmsAdminCacheService;
+import com.pange.pmall.service.UmsAdminService;
 import com.pange.pmall.common.exception.Asserts;
 import com.pange.pmall.mapper.UmsAdminMapper;
 import com.pange.pmall.model.UmsAdmin;
@@ -63,7 +63,7 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         UmsAdminExample adminExample = new UmsAdminExample();
         adminExample.createCriteria().andUsernameEqualTo(username);
         List<UmsAdmin> adminList = adminMapper.selectByExample(adminExample);
-        if(adminList.size() > 0){
+        if(!adminList.isEmpty()){
             return adminList.get(0);
         }
         return null;
@@ -84,7 +84,7 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         UmsAdminExample adminExample = new UmsAdminExample();
         adminExample.createCriteria().andUsernameEqualTo(umsAdmin.getUsername());
         List<UmsAdmin> adminList = adminMapper.selectByExample(adminExample);
-        if(adminList.size() > 0){
+        if(!adminList.isEmpty()){
             return null;
         }
         //将密码进行加密操作

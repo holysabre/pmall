@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.dto;
+package com.pange.pmall.dto;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

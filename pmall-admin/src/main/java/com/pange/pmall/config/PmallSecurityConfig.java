@@ -1,7 +1,7 @@
-package com.pange.pmall.admin.config;
+package com.pange.pmall.config;
 
-import com.pange.pmall.admin.service.UmsAdminService;
-import com.pange.pmall.admin.service.UmsResourceService;
+import com.pange.pmall.service.UmsAdminService;
+import com.pange.pmall.service.UmsResourceService;
 import com.pange.pmall.model.UmsResource;
 import com.pange.pmall.security.component.DynamicSecurityService;
 import org.springframework.beans.factory.annotation.Autowired;

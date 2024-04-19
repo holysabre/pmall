@@ -1,6 +1,6 @@
-package com.pange.pmall.admin.dto;
+package com.pange.pmall.dto;
 
-import com.pange.pmall.admin.validator.FlagValidator;
+import com.pange.pmall.validator.FlagValidator;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
@@ -32,6 +32,6 @@ public class PmsBrandParam {
     private String logo;
     @ApiModelProperty(value = "品牌大图")
     private String bidPic;
-    @ApiModelProperty(value = "是否故事")
+    @ApiModelProperty(value = "品牌故事")
     private String brandStory;
 }

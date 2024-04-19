@@ -1,9 +1,9 @@
-package com.pange.pmall.admin.service.impl;
+package com.pange.pmall.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
-import com.pange.pmall.admin.dao.UmsAdminRoleRelationDao;
-import com.pange.pmall.admin.service.UmsAdminCacheService;
-import com.pange.pmall.admin.service.UmsAdminService;
+import com.pange.pmall.dao.UmsAdminRoleRelationDao;
+import com.pange.pmall.service.UmsAdminCacheService;
+import com.pange.pmall.service.UmsAdminService;
 import com.pange.pmall.common.service.RedisService;
 import com.pange.pmall.mapper.UmsAdminRoleRelationMapper;
 import com.pange.pmall.model.UmsAdmin;

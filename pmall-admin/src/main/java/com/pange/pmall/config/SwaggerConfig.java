@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.config;
+package com.pange.pmall.config;
 
 import com.pange.pmall.common.config.BaseSwaggerConfig;
 import com.pange.pmall.common.domain.SwaggerProperties;

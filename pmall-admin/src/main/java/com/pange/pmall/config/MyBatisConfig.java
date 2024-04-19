@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.config;
+package com.pange.pmall.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;

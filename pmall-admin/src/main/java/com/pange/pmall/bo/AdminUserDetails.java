@@ -1,4 +1,4 @@
-package com.pange.pmall.admin.bo;
+package com.pange.pmall.bo;
 
 import com.pange.pmall.model.UmsAdmin;
 import com.pange.pmall.model.UmsResource;
